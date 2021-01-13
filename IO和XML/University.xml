@@ -1,0 +1,41 @@
+<University>
+    <instructors>
+        <instructor id="1">
+            <name>egon</name>
+            <department>Python</department>
+            <salary>10000</salary>
+        </instructor>
+        <instructor id="2">
+            <name>alex</name>
+            <department>java</department>
+            <salary>20000</salary>
+        </instructor>
+        <instructor id="3">
+            <name>qimi</name>
+            <department>go</department>
+            <salary>18000</salary>
+        </instructor>
+    </instructors>
+    <students>
+        <student id="1">
+            <name>沙河娜扎</name>
+            <department>python</department>
+            <grade>2020</grade>
+        </student>
+        <student id="2">
+            <name>李杰</name>
+            <department>go</department>
+            <grade>2019</grade>
+        </student>
+        <student id="3">
+            <name>王雷</name>
+            <department>java</department>
+            <grade>2021</grade>
+        </student>
+        <student id="4">
+            <name>刘亮</name>
+            <department>rust</department>
+            <grade>2022</grade>
+        </student>
+    </students>
+</University>
