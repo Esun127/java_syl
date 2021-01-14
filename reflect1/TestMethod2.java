@@ -1,13 +1,14 @@
 import java.lang.reflect.*;
 
 
-public class TestMethod {
+public class TestMethod2 {
     public static void main(String args[]) {
         try {
-            Class c = Class.forName("org.w3c.dom.NodeList");
+            Class c = Class.forName("Sub");
             // 返回Method对象数组, 存放该类或接口的所有方法(不含继承来的)
+            // Method[] mList = c.getMethods();
             Method[] mList = c.getDeclaredMethods();
-            System.out.println("NodeList类getDeclaredMethods()得到的方法如下: ");
+            System.out.println("Sub类getDeclaredMethods()得到的方法如下: ");
             //遍历所有方法
             for (int i=0; i<mList.length; i++){
                 System.out.println("**********************");
